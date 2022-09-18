@@ -1,0 +1,22 @@
+.card{
+    border: 1px solid black;
+    width: 30%;
+    border-radius: 10px;
+    text-align:center;
+}
+.btnDelete{
+    background-color: red;
+    border: none;
+    margin-left: 10px;
+    border-radius: 5px;
+    padding: 10px;
+  
+  }
+  .btnUpdate{
+    background-color: blue;
+    border: none;
+    margin-left: 10px;
+    border-radius: 5px;
+    padding: 10px;
+
+  }
