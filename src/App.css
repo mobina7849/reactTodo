@@ -1,37 +1,30 @@
 body{
-  background-image: linear-gradient(to right ,#00416A,#E4E5E6);
+  /* background-image: linear-gradient(to right ,#00416A,#E4E5E6); */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 .container{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
   margin: 30px auto ;
-  height: 100vh;
+  /* height: 100vh; */
   width: 50%;
   min-width: 300px;
+  border-radius: 10px;
   /* background-color: antiquewhite; */
-}
-.cards{
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin: auto;
-}
-.form{
-  margin:30px auto;
-  text-align: center;
-}
-.inputs{
-  opacity: 0.5;
-  padding: 10px;
-}
-.btnSubmit{
-  background-color: green;
-  border: none;
-  margin-left: 10px;
-  border-radius: 5px;
-  padding: 10px;
+  background-color: #FFE6F7;
 
 }
+
+
+
+
 
 .mr{
   margin: 20px;
+}
+button{
+  cursor: pointer;
+  background: linear-gradient(to right, #ef32d9, #89fffd); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
