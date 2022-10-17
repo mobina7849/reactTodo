@@ -50,3 +50,15 @@
     align-self: center;
   
   }
+@media  screen and (max-width:768px) {
+  .inputSection{
+    flex-direction: column;
+  }
+  .form input{
+    width: 90%;
+  }
+  .form{
+    margin-top: 0;
+  }
+}
+
